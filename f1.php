@@ -2,7 +2,11 @@
 
 echo "Esto es ANTES.\n";
 
-require 'aux.php';
+#echo PEPE . "\n";
 
-echo "Esto es DESPÚES. \n";
+$res = require __DIR__ . '/aux.php';
+
+echo "Esto es DESPÚES y el valor de res es $res. \n";
+
+echo PEPE . "\n";
 
